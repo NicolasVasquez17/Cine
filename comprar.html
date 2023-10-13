@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section id="horarios">
+        <h2>Horarios de Funciones</h2>
+        <table>
+          <tr>
+            <th>Película</th>
+            <th>Día</th>
+            <th>Hora</th>
+          </tr>
+          <tr>
+            <td>Película 1</td>
+            <td>Lunes</td>
+            <td>18:00</td>
+          </tr>
+          <tr>
+            <td>Película 2</td>
+            <td>Miércoles</td>
+            <td>20:00</td>
+          </tr>
+          <!-- Agrega más horarios aquí -->
+        </table>
+      </section>
+    
+      <section id="comprar">
+        <h2>Compra de Boletos</h2>
+        <form id="boletos-form">
+          <label for="pelicula">Selecciona una película:</label>
+          <select id="pelicula" name="pelicula">
+            <option value="pelicula1">Película 1</option>
+            <option value="pelicula2">Película 2</option>
+          </select>
+    
+          <label for="cantidad">Cantidad de boletos:</label>
+          <input type="number" id="cantidad" name="cantidad" min="1" required />
+    
+          <label for="nombre">Nombre del comprador:</label>
+          <input type="text" id="nombre" name="nombre" required />
+    
+          <input type="submit" value="Comprar" />
+        </form>
+      </section>
+    
+      <script src="script.js"></script>
+</body>
+</html>

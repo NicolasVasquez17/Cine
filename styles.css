@@ -1,0 +1,109 @@
+
+
+*{
+    font-family: 'Convergence', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #ececec;
+    padding: 0;
+    justify-content: center;
+}
+
+.lista_nav{
+    text-align: center;
+}
+
+nav li {
+    margin: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+#peliculas img {
+    width:300px;
+    height:450px;
+
+}
+
+.cartelera{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+
+.img_section{
+    display: inline-grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1rem;
+    padding-bottom: 0.3rem;
+    justify-content: center;
+}
+
+#promos{
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#contacto{
+    background-color: #ececec;
+    
+}
+
+
+.lista{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    list-style: none;
+    
+}
+
+.column1{
+    grid-column: span 1;
+    opacity:.7;
+    font-size: .95rem;
+    cursor: pointer;
+}
+
+.column2{
+    padding-top: 14px;
+    grid-column: span 1;
+    cursor: pointer;
+}
+
+.lista img{
+    width:130px;
+    height:38px;
+
+}
+
+
+
